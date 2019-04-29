@@ -16,12 +16,12 @@
       </v-layout>
     </transition>
     <v-layout class="wrapper-layout" align-center justify-center>
-      <v-container class="elevation-12" id="card">
+      <v-container ma-4 class="elevation-12" id="card">
         <v-layout column="" justify-space-between="" fill-height="">
           <v-layout justify-space-around="" align-center="">
-            <span class="menacing">ゴゴゴゴゴゴ</span>
-            <img height="100" width="100" style="border-radius: 50%; object-fit: cover;" src="/logoassets/logo.png"/>
-            <span class="menacing">ゴゴゴゴゴゴ</span>
+            <span class="menacing">ゴゴゴゴゴゴゴゴゴゴゴゴ</span>
+            <img class="mx-3" height="100" width="100" style="border-radius: 50%; object-fit: cover;" src="/logoassets/logo.png"/>
+            <span class="menacing">ゴゴゴゴゴゴゴゴゴゴゴゴ</span>
           </v-layout>
           <v-layout align-space-around="" column justify-space-around="" fill-height="">
             <card-section v-for="(v, k) of mainCard[$i18n.locale]" :key="k" :title="k">
@@ -96,6 +96,7 @@ a
 {
   color purple
   rfs(30)
+  text-align center
 }
 
 .cardListElement
@@ -103,7 +104,7 @@ a
 
 #card
   background-color: white;
-  margin 10px
+  // margin 10px
   // width: 85vw;
   // height: 85vh;
   border-radius 25px;
