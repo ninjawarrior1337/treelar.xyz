@@ -20,7 +20,7 @@
     </keep-alive> -->
     <v-card width="300" min-height="400" hover class="ma-2">
         <v-card-title class="justify-center" primary style="text-align: center"><h2>{{$i18n.locale != "ja" ? show.title : show.jatitle}}</h2></v-card-title>
-        <v-img contain height="300" :src="show.imgUrl"/>
+        <v-img contain height="300" :src="`https://images.weserv.nl/?url=${show.imgUrl}`"/>
         <v-card-text>
             <h3 style="text-align: center">
                 {{$i18n.locale != "ja" ? show.desc : ""}}
