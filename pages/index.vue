@@ -3,7 +3,9 @@
     <transition appear="" enter-active-class="animated zoomIn">
       <v-layout class="wrapper-layout" align-center justify-center column style="background-image: linear-gradient(to right, #3399ff , #0000ff)">
         <transition appear="" enter-active-class="animated fadeInDownBig delay-800ms">
-          <img id="mainLogo" src="/logoassets/logowobg.svg"/>
+          <div id="mainLogo">
+            <v-img height="100%" width="100%" src="/logoassets/logowobg.svg"/>
+          </div>
         </transition>
         <h1 id="underLogo">
           {{$t("treelar")}}
@@ -85,9 +87,11 @@ a
 
 #mainLogo
   // margin-top: -5%
-  width: 100%;
+  width: 20rem;
+  // height 20rem;
   max-width: 300px;
-  height: auto;
+  // height: auto;
+  // margin-top 30px;
 
 .wrapper-layout
   min-height: 100vh
@@ -111,11 +115,18 @@ a
   // overflow-y auto
   // display table
 
+// #underLogo
+//   text-align: center;
+//   font-family: "Comfortaa";
+//   font-weight: normal;
+//   rfs(45)
+//   user-select none
+
 #underLogo
   text-align: center;
   font-family: "Comfortaa";
   font-weight: normal;
-  rfs(45)
+  rfs(40)
   user-select none 
 
 </style>
