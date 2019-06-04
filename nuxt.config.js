@@ -71,7 +71,8 @@ export default {
         useCookie: false
       }
     }],
-    "@nuxtjs/axios"
+    "@nuxtjs/axios",
+    "@nuxtjs/sitemap"
   ],
 
   /*
