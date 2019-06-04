@@ -8,10 +8,14 @@ currShows:
   jatitle: ゆるキャン△
   imgUrl: https://img1.ak.crunchyroll.com/i/spire4/5ac5fff410cb66c57ce0d2ea2617d08d1515076527_full.jpg
   desc: ABC...easy as 123
-- title: The Irregular at Magic High School
-  jatitle: 魔法科高校の劣等生
-  desc: PSI the Anime, Mari Watanabe is best girl (Love Live Reference The Charachter)
-  imgUrl: https://img1.ak.crunchyroll.com/i/spire3/f2ccbd8ea20320fda0f49b23bb43d2d21396649462_full.jpg
+- title: Shirobako
+  ja-title: SHIROBAKO
+  imgUrl: https://img1.ak.crunchyroll.com/i/spire4/eec93e750b6b873f13e04a2c77d57dca1412806442_full.jpg
+  desc: I heard it's like New Game but better...
+# - title: The Irregular at Magic High School
+#   jatitle: 魔法科高校の劣等生
+#   desc: PSI the Anime, Mari Watanabe is best girl (Love Live Reference The Charachter)
+#   imgUrl: https://img1.ak.crunchyroll.com/i/spire3/f2ccbd8ea20320fda0f49b23bb43d2d21396649462_full.jpg
 # - title: Yuru Yuri
 #   imgUrl: https://img1.ak.crunchyroll.com/i/spire4/3780ca878ee756a73dfeba8b63b0aa761444072040_full.jpg
 #   desc: Akarin!!!
@@ -55,7 +59,7 @@ prevShows:
   jatitle: STEINS;GATE
   imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9253-x1WUtyzJBXXX.jpg
   desc: I AM MAD SCIENTIST!!!
-- title: New Game!! (S1 and S2)
+- title: New Game!&!! (S1 and S2)
   jatitle: NEW GAME!とNEW GAME!!
   imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21455-8JP9u1bKHVr7.jpg
   desc: You just scream 'New Game' at season 10

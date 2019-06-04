@@ -75,6 +75,10 @@ export default {
     "@nuxtjs/sitemap"
   ],
 
+  sitemap: {
+    hostname: 'https://treelar.xyz'
+  },
+
   /*
   ** Build configuration
   */
