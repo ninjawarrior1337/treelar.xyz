@@ -50,7 +50,7 @@
   },
   "ja": {
     "treelar": "ツリーラー　『タイラー』",
-    "studying": "日本語勉強する",
+    "studying": "日本語勉強中",
     "likes-vue": "<a href='https://reactjs.org/' target='_blank' style='color: #00d8ff; text-decoration: none;'>React</a>より<a href='http://vuejs.org' target='_blank' style='color: #41B883; text-decoration: none;'>Vue.js</a>が好きです",
     "trapped": "<a href='https://schoolido.lu/' target='_blank' style='color: #E11882; text-decoration: none;'>Idol hell</a>に陥穽しています"
   }
