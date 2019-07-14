@@ -44,7 +44,7 @@
 {
   "en": {
     "treelar": "Treelar (Tyler)",
-    "studying": "日本語勉強する",
+    "studying": "日本語勉強中",
     "likes-vue": "likes <a href='http://vuejs.org' target='_blank' style='color: #41B883; text-decoration: none;'>Vue.js</a> over <a href='https://reactjs.org/' target='_blank' style='color: #00d8ff; text-decoration: none;'>React</a>",
     "trapped": "trapped in <a href='https://schoolido.lu/' target='_blank' style='color: #E11882; text-decoration: none;'>idol hell</a>"
   },
