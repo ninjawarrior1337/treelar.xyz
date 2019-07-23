@@ -18,11 +18,11 @@
       </v-layout>
     </transition>
     <v-layout class="wrapper-layout" align-center justify-center>
-      <v-container ma-4 class="elevation-12" id="card">
+      <v-container ma-6 class="elevation-12" id="card">
         <v-layout column="" justify-space-between="" fill-height="">
           <v-layout justify-space-around="" align-center="">
             <span class="menacing">ゴゴゴゴゴゴゴゴゴゴゴゴ</span>
-            <img class="mx-3" height="100" width="100" style="border-radius: 50%; object-fit: cover;" src="/logoassets/logo.png"/>
+            <img class="mx-4" height="100" width="100" style="border-radius: 50%; object-fit: cover;" src="/logoassets/logo.png"/>
             <span class="menacing">ゴゴゴゴゴゴゴゴゴゴゴゴ</span>
           </v-layout>
           <v-layout align-space-around="" column justify-space-around="" fill-height="">

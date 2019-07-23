@@ -47,14 +47,14 @@ export default {
   ** Global CSS
   */
   css: [
-    '~/assets/style/app.styl'
+    // '~/assets/style/app.styl'
   ],
 
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/vuetify',
+    '@/plugins/animate',
     '@/plugins/promised'
   ],
 
@@ -75,6 +75,16 @@ export default {
     "@nuxtjs/sitemap"
   ],
 
+  devModules: [
+    "@nuxtjs/vuetify"
+  ],
+
+  vuetify: {
+    theme: {
+      dark: true
+    }
+  },
+
   sitemap: {
     hostname: 'https://treelar.xyz'
   },
@@ -87,7 +97,7 @@ export default {
     plugins: [new VuetifyLoaderPlugin()],
     loaders: {
       stylus: {
-        import: ['~assets/style/variables.styl']
+        // import: ['~assets/style/variables.styl']
       }
     },
     /*
@@ -98,6 +108,6 @@ export default {
   },
   server:
   {
-    port: 8080
+    port: 8081
   }
 }

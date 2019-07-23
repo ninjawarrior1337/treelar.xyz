@@ -1,15 +1,15 @@
 <template>
-  <v-app dark>
+  <v-app dark="">
     <v-toolbar absolute height="50" id="toolbar">
         <!-- <v-toolbar-title>
           
         </v-toolbar-title> -->
-        <nuxt-link class="mr-4 mt-2" :to="localePath('index')">
+        <nuxt-link class="mr-6 mt-2" :to="localePath('index')">
           <img height="40" width="40" style="border-radius: 50%; object-fit: cover;" src="/logoassets/logo.png"/>
         </nuxt-link>
         <v-toolbar-items>
-          <v-btn flat nuxt :to="localePath('index')">{{$t("home")}}</v-btn>
-          <v-btn flat nuxt :to="localePath('anime')">{{$t("anime")}}</v-btn>
+          <v-btn text nuxt :to="localePath('index')">{{$t("home")}}</v-btn>
+          <v-btn text nuxt :to="localePath('anime')">{{$t("anime")}}</v-btn>
         </v-toolbar-items>
         <v-spacer></v-spacer>
 
@@ -17,8 +17,8 @@
         <v-btn icon="" href="https://twitter.com/TYNROH" target="_blank" class="socialIcon"><v-icon>fab fa-twitter</v-icon></v-btn>
         <v-btn icon="" @click.stop="discordDialog = true" class="socialIcon"><v-icon>fab fa-discord</v-icon></v-btn>
 
-        <v-btn v-show="$nuxt.$route.name.includes('en')" flat nuxt :to="switchLocalePath('ja')">Show Japanese</v-btn>
-        <v-btn v-show="$nuxt.$route.name.includes('ja')" flat nuxt :to="switchLocalePath('en')">英語のページへナビゲートする</v-btn>
+        <v-btn v-show="$nuxt.$route.name.includes('en')" text nuxt :to="switchLocalePath('ja')">Show Japanese</v-btn>
+        <v-btn v-show="$nuxt.$route.name.includes('ja')" text nuxt :to="switchLocalePath('en')">英語のページへナビゲートする</v-btn>
     </v-toolbar>
     <transition enter-active-class="animated fadeIn" appear="">
       <nuxt></nuxt>
@@ -30,7 +30,7 @@
         </v-card-title>
       </v-card>
     </v-dialog>
-    <v-btn v-show="scrollY > 100" @click="scrollToTop" class="ma-4" color="blue" bottom fab fixed right>
+    <v-btn v-show="scrollY > 100" @click="scrollToTop" class="ma-6" color="blue" bottom fab fixed right>
       <v-icon>
         arrow_upward
       </v-icon>

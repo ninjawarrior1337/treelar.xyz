@@ -1,7 +1,7 @@
 <template>
   <div>
-    <v-layout ma-5 align-center column>
-      <h1 class="mt-3">{{$t('currWatch')}}</h1>
+    <v-layout ma-12 align-center column>
+      <h1 class="mt-4">{{$t('currWatch')}}</h1>
       <v-layout wrap align-space-around row justify-space-around>
         <transition v-for="show in anime.currShows" :key="show.title" enter-active-class="animated fadeInRight" appear="">
           <anime-card :show="show"/>
