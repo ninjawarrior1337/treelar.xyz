@@ -1,4 +1,3 @@
-import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
 import pkg from './package'
 
 export default {
@@ -94,7 +93,7 @@ export default {
   */
   build: {
     transpile: ['vuetify/lib'],
-    plugins: [new VuetifyLoaderPlugin()],
+    plugins: [],
     loaders: {
       stylus: {
         // import: ['~assets/style/variables.styl']
