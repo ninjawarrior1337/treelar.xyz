@@ -1,5 +1,5 @@
 <template>
-    <v-card class="ma-2">
+    <v-card class="ma-2" elevation="25">
         <v-card-title class="justify-center">
             <h3 id="title">{{title}}</h3>
         </v-card-title>

@@ -7,7 +7,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: "Treelar.xyz",
+    title: "Treelar",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -16,7 +16,7 @@ export default {
       { name: 'og-name', content: "Tyler's Website"},
       { name: 'og:type', content: "website"},
       { name: 'og:url', content: "https://treelar.com"},
-      { name: 'og:description', content: "Why not learn about some dude that makes bad (good) robots, epic games (Reverse Game), horribly inefficient code, can speak very english sounding japanese, and starts watching anime because some filipino guy shows him a circle clicking game...also check out my GitHub please."},
+      { name: 'og:description', content: "Why not learn about some dude that makes bad (good) robots, epic games (Reverse Game), horribly inefficient code, can speak very english sounding japanese, and becomes idol fan because some filipino guy shows him a circle clicking game."},
       { name: 'og:image', content: "https://treelar.xyz/logoassets/avatar8192x8192.png"}
     ],
     link: [
@@ -62,19 +62,21 @@ export default {
   */
   modules: [
     'vue-scrollto/nuxt',
-    ['nuxt-i18n', {
-      locales: [{code: "en", iso: "en-US"}, {code: "ja", iso: "ja-JP"}],
-      defaultLocale: "en",
-      vueI18nLoader: true,
-      detectBrowserLanguage: {
-        useCookie: false
-      }
-    }],
+    'nuxt-i18n',
     "@nuxtjs/axios",
     "@nuxtjs/sitemap"
   ],
 
-  devModules: [
+  i18n: {
+    locales: ['en', 'ja'],
+    defaultLocale: 'en',
+    vueI18nLoader: true,
+    detectBrowserLanguage: {
+      useCookie: true
+    }
+  },
+
+  buildModules: [
     "@nuxtjs/vuetify"
   ],
 

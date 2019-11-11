@@ -57,6 +57,11 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped lang="stylus">
+.v-card
+    top: 0
+    transition 0.10s;
+    transition-timing-function linear
+.v-card:hover
+    top -10px
 </style>
