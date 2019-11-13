@@ -16,8 +16,8 @@
         <v-btn icon="" href="https://twitter.com/TYNROH" target="_blank" class="socialIcon"><v-icon>fab fa-twitter</v-icon></v-btn>
         <v-btn icon="" @click.stop="discordDialog = true" class="socialIcon"><v-icon>fab fa-discord</v-icon></v-btn>
 
-        <v-btn v-if="$i18n.locale === 'en'" text nuxt :to="switchLocalePath('ja')">Show Japanese</v-btn>
-        <v-btn v-if="$i18n.locale === 'ja'" text nuxt :to="switchLocalePath('en')">英語のページへナビゲートする</v-btn>
+        <v-btn v-if="$i18n.locale === 'en'" text nuxt :to="switchLocalePath('ja')">日本語 🡆</v-btn>
+        <v-btn v-if="$i18n.locale === 'ja'" text nuxt :to="switchLocalePath('en')">English 🡆</v-btn>
     </v-toolbar>
     <transition enter-active-class="animated fadeIn" appear="">
       <nuxt></nuxt>
