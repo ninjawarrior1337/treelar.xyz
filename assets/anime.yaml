@@ -1,17 +1,17 @@
 ---
 currShows:
-# - title: The Melancholy of Haruhi Suzumiya
-#   jatitle: 涼宮ハルヒの憂鬱
-#   imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx849-ClH8wwTVRT03.png
-#   desc: Super Driver Chousen Suru no yo Feel it Feel it Speed Up 
-- title: Laid-Back Camp
-  jatitle: ゆるキャン△
-  imgUrl: https://img1.ak.crunchyroll.com/i/spire4/5ac5fff410cb66c57ce0d2ea2617d08d1515076527_full.jpg
-  desc: ABC...easy as 123
-- title: Shirobako
-  jatitle: SHIROBAKO
-  imgUrl: https://img1.ak.crunchyroll.com/i/spire4/eec93e750b6b873f13e04a2c77d57dca1412806442_full.jpg
-  desc: I heard it's like New Game but better...
+  # - title: The Melancholy of Haruhi Suzumiya
+  #   jatitle: 涼宮ハルヒの憂鬱
+  #   imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx849-ClH8wwTVRT03.png
+  #   desc: Super Driver Chousen Suru no yo Feel it Feel it Speed Up
+  - title: Laid-Back Camp
+    jatitle: ゆるキャン△
+    imgUrl: https://img1.ak.crunchyroll.com/i/spire4/5ac5fff410cb66c57ce0d2ea2617d08d1515076527_full.jpg
+    desc: ABC...easy as 123
+  - title: Shirobako
+    jatitle: SHIROBAKO
+    imgUrl: https://img1.ak.crunchyroll.com/i/spire4/eec93e750b6b873f13e04a2c77d57dca1412806442_full.jpg
+    desc: I heard it's like New Game but better...
 # - title: The Irregular at Magic High School
 #   jatitle: 魔法科高校の劣等生
 #   desc: PSI the Anime, Mari Watanabe is best girl (Love Live Reference The Charachter)
@@ -23,79 +23,79 @@ currShows:
 #   imgUrl: https://img1.ak.crunchyroll.com/i/spire2/26cab01d95a04956bd5a1a2994d231ea1523422286_full.jpg
 #   desc: idk if im going to ever finish this
 prevShows:
-- title: Dr. Stone
-  jatitle: ドクターストーン
-  imageUrl: https://artworks.thetvdb.com/banners/posters/5c1e1a5b81a97.jpg
-  desc: This Was Exhilarating
-- title: Assassination Classroom
-  jatitle: 暗殺教室
-  imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20755-dd7F1pv6z1y9.jpg
-  desc: Nagisa is best girl...unless
-- title: Rascal Does Not Dream of Bunny Girl Senpai
-  jatitle: 青春ブタ野郎はバニーガール先輩の夢を見ない
-  imgUrl: https://img1.ak.crunchyroll.com/i/spire2/9f8894f961340ccdd9464a53b14ca3bd1538572740_full.jpg
-  desc: Quantum Mechanics, The Anime
-- title: Love Live! Sunshine!!
-  jatitle: ラブライブ！サンシャイン!!
-  imgUrl: https://img1.ak.crunchyroll.com/i/spire4/d6b86e43bfb2e1973388eef42ca820151507939806_full.jpg
-  desc: "Hanamaru best girl \n (Mirai Zura) (未来ずら)"
-- title: Erased
-  jatitle: 僕だけがいない街
-  imgUrl: "https://img1.ak.crunchyroll.com/i/spire4/3727644b109279e2cb405ac89b0f293f1452549294_full.jpg"
-  desc: "It's like Re:Zero but animated by A1 Pictures...yah idk either"
-- title: No Game No Life
-  jatitle: ノーゲーム・ノーライフ
-  desc: Jibril Best Girl. Also I want a 3D printed race piece.
-  imgUrl: https://img1.ak.crunchyroll.com/i/spire1/5a4525c6fc5508fa27f0ed229ad2cbde1396985147_full.jpg
-- title: Love Live! School Idol Project
-  jatitle: ラブライブ! School idol project
-  imgUrl: https://img1.ak.crunchyroll.com/i/spire3/deaf323b7654b1e9d6a63b9dfb1ae8cc1532553708_full.jpg
-  desc: Kotori is best girl
-- title: Cells at Work
-  jatitle: はたらく細胞
-  imgUrl: https://img1.ak.crunchyroll.com/i/spire3/62efd37b4358eb2302a4f3c94bb85aa91530946368_full.jpg
-  desc: More like working cells amirite
-- title: My Hero Academia
-  jatitle: 僕のヒーローアカデミア
-  imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21459-oZMZ7JwS5Sxq.jpg
-  desc: POWER!!!!!
-- title: Steins;Gate
-  jatitle: STEINS;GATE
-  imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9253-x1WUtyzJBXXX.jpg
-  desc: I AM MAD SCIENTIST!!!
-- title: New Game!&!! (S1 and S2)
-  jatitle: NEW GAME!とNEW GAME!!
-  imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21455-8JP9u1bKHVr7.jpg
-  desc: You just scream 'New Game' at season 10
-- title: Re:ZERO -Starting Life in Another World-
-  jatitle: Re：ゼロから始める異世界生活
-  imgUrl: https://img1.ak.crunchyroll.com/i/spire2/95445cd55c37ce2ff04ef1adde79f50c1529088362_full.jpg
-  desc: Felix isn't a girl
-- title: "KonoSuba: God's Blessing on This Wonderful World!"
-  jatitle: この素晴らしい世界に祝福を！
-  imgUrl: https://img1.ak.crunchyroll.com/i/spire3/7ba81b1709a87f5ca8930229b10029a61484092235_full.jpg
-  desc: "(エクスプロージョン) \n Ekusupuro-jon"
-- title: Food Wars! Shokugeki no Soma
-  jatitle: 食戟のソーマ
-  imgUrl: https://img1.ak.crunchyroll.com/i/spire1/2cc4dea4df2797c797615a0c7767878c1524864330_full.jpg
-  desc: Megumi best girl
-- title: Gabriel DropOut
-  jatitle: ガヴリールドロップアウト
-  imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21878-G5sVkEbSgnfu.jpg
-  desc: Don't watch OVA 1
-- title: Is the Order a Rabbit?
-  jatitle: ご注文はうさぎですか？
-  imgUrl: https://img1.ak.crunchyroll.com/i/spire1/eb7240c98ed971b547c24d00c6753dfa1502320432_full.jpg
-  desc: Kokoro Pon Pon Machi
-- title: Blend S
-  jatitle: ブレンド・S
-  imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx97994-livMvQs5XMpl.jpg
-  desc: Smile, Sweet, Sister, Sadistic, Surprise, Service, IT'S SHOWTIME
-- title: Miss Kobayashi's Dragon Maid
-  jatitle: 小林さんちのメイドラゴン
-  imgUrl: https://img1.ak.crunchyroll.com/i/spire1/c4cf4a91a0bca77f1a0954ddd48a2e8c1532552925_full.jpg
-  desc: The Life Of A Python Programmer
-- title: Eromanga Sensei
-  jatitle: エロマンガ先生
-  imgUrl: https://img1.ak.crunchyroll.com/i/spire2/6fd1a6719108981ae2d04125f0768b3d1491614015_full.jpg
-  desc: Este es basura...baka
+  - title: Dr. Stone
+    jatitle: ドクターストーン
+    imageUrl: https://artworks.thetvdb.com/banners/posters/5c1e1a5b81a97.jpg
+    desc: This Was Exhilarating
+  - title: Assassination Classroom
+    jatitle: 暗殺教室
+    imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20755-dd7F1pv6z1y9.jpg
+    desc: Nagisa is best girl...unless
+  - title: Rascal Does Not Dream of Bunny Girl Senpai
+    jatitle: 青春ブタ野郎はバニーガール先輩の夢を見ない
+    imgUrl: https://img1.ak.crunchyroll.com/i/spire2/9f8894f961340ccdd9464a53b14ca3bd1538572740_full.jpg
+    desc: Quantum Mechanics, The Anime
+  - title: Love Live! Sunshine!!
+    jatitle: ラブライブ！サンシャイン!!
+    imgUrl: https://img1.ak.crunchyroll.com/i/spire4/d6b86e43bfb2e1973388eef42ca820151507939806_full.jpg
+    desc: "Hanamaru best girl \n (Mirai Zura) (未来ずら)"
+  - title: Erased
+    jatitle: 僕だけがいない街
+    imgUrl: "https://img1.ak.crunchyroll.com/i/spire4/3727644b109279e2cb405ac89b0f293f1452549294_full.jpg"
+    desc: "It's like Re:Zero but animated by A1 Pictures...yah idk either"
+  - title: No Game No Life
+    jatitle: ノーゲーム・ノーライフ
+    desc: Jibril Best Girl. Also I want a 3D printed race piece.
+    imgUrl: https://img1.ak.crunchyroll.com/i/spire1/5a4525c6fc5508fa27f0ed229ad2cbde1396985147_full.jpg
+  - title: Love Live! School Idol Project
+    jatitle: ラブライブ! School idol project
+    imgUrl: https://img1.ak.crunchyroll.com/i/spire3/deaf323b7654b1e9d6a63b9dfb1ae8cc1532553708_full.jpg
+    desc: Kotori is best girl
+  - title: Cells at Work
+    jatitle: はたらく細胞
+    imgUrl: https://img1.ak.crunchyroll.com/i/spire3/62efd37b4358eb2302a4f3c94bb85aa91530946368_full.jpg
+    desc: More like working cells amirite
+  - title: My Hero Academia
+    jatitle: 僕のヒーローアカデミア
+    imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21459-oZMZ7JwS5Sxq.jpg
+    desc: POWER!!!!!
+  - title: Steins;Gate
+    jatitle: STEINS;GATE
+    imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9253-x1WUtyzJBXXX.jpg
+    desc: I AM MAD SCIENTIST!!!
+  - title: New Game!&!! (S1 and S2)
+    jatitle: NEW GAME!とNEW GAME!!
+    imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21455-8JP9u1bKHVr7.jpg
+    desc: You just scream 'New Game' at season 10
+  - title: Re:ZERO -Starting Life in Another World-
+    jatitle: Re：ゼロから始める異世界生活
+    imgUrl: https://img1.ak.crunchyroll.com/i/spire2/95445cd55c37ce2ff04ef1adde79f50c1529088362_full.jpg
+    desc: Felix isn't a girl
+  - title: "KonoSuba: God's Blessing on This Wonderful World!"
+    jatitle: この素晴らしい世界に祝福を！
+    imgUrl: https://img1.ak.crunchyroll.com/i/spire3/7ba81b1709a87f5ca8930229b10029a61484092235_full.jpg
+    desc: "(エクスプロージョン) \n Ekusupuro-jon"
+  - title: Food Wars! Shokugeki no Soma
+    jatitle: 食戟のソーマ
+    imgUrl: https://img1.ak.crunchyroll.com/i/spire1/2cc4dea4df2797c797615a0c7767878c1524864330_full.jpg
+    desc: Megumi best girl
+  - title: Gabriel DropOut
+    jatitle: ガヴリールドロップアウト
+    imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21878-G5sVkEbSgnfu.jpg
+    desc: Don't watch OVA 1
+  - title: Is the Order a Rabbit?
+    jatitle: ご注文はうさぎですか？
+    imgUrl: https://img1.ak.crunchyroll.com/i/spire1/eb7240c98ed971b547c24d00c6753dfa1502320432_full.jpg
+    desc: Kokoro Pon Pon Machi
+  - title: Blend S
+    jatitle: ブレンド・S
+    imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx97994-livMvQs5XMpl.jpg
+    desc: Smile, Sweet, Sister, Sadistic, Surprise, Service, IT'S SHOWTIME
+  - title: Miss Kobayashi's Dragon Maid
+    jatitle: 小林さんちのメイドラゴン
+    imgUrl: https://img1.ak.crunchyroll.com/i/spire1/c4cf4a91a0bca77f1a0954ddd48a2e8c1532552925_full.jpg
+    desc: The Life Of A Python Programmer
+  - title: Eromanga Sensei
+    jatitle: エロマンガ先生
+    imgUrl: https://img1.ak.crunchyroll.com/i/spire2/6fd1a6719108981ae2d04125f0768b3d1491614015_full.jpg
+    desc: Este es basura...baka

@@ -14,7 +14,7 @@
           // {{$t('studying')}}<pre/>
           // <span v-html="$t('likes-vue')"></span><pre/>
           // <span v-html="$t('trapped')"></span><pre/>
-          // <span v-html="$t('kotlin')"></span>
+          // <span v-html="$t('kotlin-go')"></span>
         </h1>
       </v-layout>
     </transition>
@@ -48,14 +48,14 @@
     "studying": "日本語勉強中",
     "likes-vue": "likes <a href='http://vuejs.org' target='_blank' style='color: #41B883; text-decoration: none;'>Vue.js</a> over <a href='https://reactjs.org/' target='_blank' style='color: #00d8ff; text-decoration: none;'>React</a>",
     "trapped": "trapped in <a href='https://schoolido.lu/' target='_blank' style='color: #E11882; text-decoration: none;'>idol hell</a>",
-    "kotlin": "<a href='https://kotlinlang.org/' target='_blank' style='color: #F88909; text-decoration: none;'>Kotlin</a> is the future!"
+    "kotlin": "<a href='https://kotlinlang.org/' target='_blank' style='color: #F88909; text-decoration: none;'>Kotlin</a> and <a href='https://golang.org/' target='_blank' style='color: #00ADD8; text-decoration: none;'>Go</a> are the future!"
   },
   "ja": {
     "treelar": "ツリーラー　『タイラー』",
     "studying": "日本語勉強中",
     "likes-vue": "<a href='http://vuejs.org' target='_blank' style='color: #41B883; text-decoration: none;'>Vue.js</a>が<a href='https://reactjs.org/' target='_blank' style='color: #00d8ff; text-decoration: none;'>React</a>より好きです",
     "trapped": "<a href='https://schoolido.lu/' target='_blank' style='color: #E11882; text-decoration: none;'>Idol hell</a>に陥穽しています",
-    "kotlin": "<a href='https://kotlinlang.org/' target='_blank' style='color: #F88909; text-decoration: none;'>Kotlin</a>の大ファンです"
+    "kotlin": "<a href='https://kotlinlang.org/' target='_blank' style='color: #F88909; text-decoration: none;'>Kotlin</a>と<a href='https://golang.org/' target='_blank' style='color: #00ADD8; text-decoration: none;'>Go</a>の大ファンです"
   }
 }
 </i18n>
