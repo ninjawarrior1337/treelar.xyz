@@ -1,9 +1,9 @@
 ---
 currShows:
-- title: The Melancholy of Haruhi Suzumiya
-  jatitle: 涼宮ハルヒの憂鬱
-  imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx849-ClH8wwTVRT03.png
-  desc: Super Driver Chousen Suru no yo Feel it Feel it Speed Up
+# - title: The Melancholy of Haruhi Suzumiya
+#   jatitle: 涼宮ハルヒの憂鬱
+#   imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx849-ClH8wwTVRT03.png
+#   desc: Super Driver Chousen Suru no yo Feel it Feel it Speed Up 
 - title: Laid-Back Camp
   jatitle: ゆるキャン△
   imgUrl: https://img1.ak.crunchyroll.com/i/spire4/5ac5fff410cb66c57ce0d2ea2617d08d1515076527_full.jpg
@@ -23,6 +23,10 @@ currShows:
 #   imgUrl: https://img1.ak.crunchyroll.com/i/spire2/26cab01d95a04956bd5a1a2994d231ea1523422286_full.jpg
 #   desc: idk if im going to ever finish this
 prevShows:
+- title: Dr. Stone
+  jatitle: ドクターストーン
+  imageUrl: https://artworks.thetvdb.com/banners/posters/5c1e1a5b81a97.jpg
+  desc: This Was Exhilarating
 - title: Assassination Classroom
   jatitle: 暗殺教室
   imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20755-dd7F1pv6z1y9.jpg
