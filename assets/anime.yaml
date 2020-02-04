@@ -25,7 +25,7 @@ currShows:
 prevShows:
   - title: Dr. Stone
     jatitle: ドクターストーン
-    imageUrl: https://artworks.thetvdb.com/banners/posters/5c1e1a5b81a97.jpg
+    imgUrl: https://artworks.thetvdb.com/banners/posters/5c1e1a5b81a97.jpg
     desc: This Was Exhilarating
   - title: Assassination Classroom
     jatitle: 暗殺教室
