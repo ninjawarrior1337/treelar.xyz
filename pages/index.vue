@@ -4,7 +4,7 @@
       <v-layout class="wrapper-layout" align-center justify-center column style="background-image: linear-gradient(to right, #3399ff , #0000ff)">
         <transition appear="" enter-active-class="animated fadeInDownBig delay-800ms">
           <div id="mainLogo">
-            <v-img height="100%" width="100%" src="/logoassets/logowobg.svg"/>
+            <v-img src="/logoassets/logowobg.svg"/>
           </div>
         </transition>
         <h1 id="underLogo">
@@ -13,16 +13,17 @@
           <br/>
           // {{$t('studying')}}<pre/>
           // <span v-html="$t('likes-vue')"></span><pre/>
-          // <span v-html="$t('trapped')"></span>
+          // <span v-html="$t('trapped')"></span><pre/>
+          // <span v-html="$t('kotlin')"></span>
         </h1>
       </v-layout>
     </transition>
     <v-layout class="wrapper-layout" align-center justify-center>
-      <v-container ma-4 class="elevation-12" id="card">
+      <v-container ma-6 class="elevation-12" id="card">
         <v-layout column="" justify-space-between="" fill-height="">
           <v-layout justify-space-around="" align-center="">
             <span class="menacing">ゴゴゴゴゴゴゴゴゴゴゴゴ</span>
-            <img class="mx-3" height="100" width="100" style="border-radius: 50%; object-fit: cover;" src="/logoassets/logo.png"/>
+            <img class="mx-4" height="100" width="100" style="border-radius: 50%; object-fit: cover;" src="/logoassets/logo.png"/>
             <span class="menacing">ゴゴゴゴゴゴゴゴゴゴゴゴ</span>
           </v-layout>
           <v-layout align-space-around="" column justify-space-around="" fill-height="">
@@ -44,15 +45,17 @@
 {
   "en": {
     "treelar": "Treelar (Tyler)",
-    "studying": "日本語勉強する",
+    "studying": "日本語勉強中",
     "likes-vue": "likes <a href='http://vuejs.org' target='_blank' style='color: #41B883; text-decoration: none;'>Vue.js</a> over <a href='https://reactjs.org/' target='_blank' style='color: #00d8ff; text-decoration: none;'>React</a>",
-    "trapped": "trapped in <a href='https://schoolido.lu/' target='_blank' style='color: #E11882; text-decoration: none;'>idol hell</a>"
+    "trapped": "trapped in <a href='https://schoolido.lu/' target='_blank' style='color: #E11882; text-decoration: none;'>idol hell</a>",
+    "kotlin": "<a href='https://kotlinlang.org/' target='_blank' style='color: #F88909; text-decoration: none;'>Kotlin</a> is the future!"
   },
   "ja": {
     "treelar": "ツリーラー　『タイラー』",
-    "studying": "日本語勉強する",
-    "likes-vue": "<a href='https://reactjs.org/' target='_blank' style='color: #00d8ff; text-decoration: none;'>React</a>より<a href='http://vuejs.org' target='_blank' style='color: #41B883; text-decoration: none;'>Vue.js</a>が好きです",
-    "trapped": "<a href='https://schoolido.lu/' target='_blank' style='color: #E11882; text-decoration: none;'>Idol hell</a>に陥穽しています"
+    "studying": "日本語勉強中",
+    "likes-vue": "<a href='http://vuejs.org' target='_blank' style='color: #41B883; text-decoration: none;'>Vue.js</a>が<a href='https://reactjs.org/' target='_blank' style='color: #00d8ff; text-decoration: none;'>React</a>より好きです",
+    "trapped": "<a href='https://schoolido.lu/' target='_blank' style='color: #E11882; text-decoration: none;'>Idol hell</a>に陥穽しています",
+    "kotlin": "<a href='https://kotlinlang.org/' target='_blank' style='color: #F88909; text-decoration: none;'>Kotlin</a>の大ファンです"
   }
 }
 </i18n>
@@ -88,7 +91,7 @@ a
 #mainLogo
   // margin-top: -5%
   width: 20rem;
-  // height 20rem;
+  height 20rem;
   max-width: 300px;
   // height: auto;
   // margin-top 30px;

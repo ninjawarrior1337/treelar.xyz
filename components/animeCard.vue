@@ -1,31 +1,14 @@
 <template>
-    <!-- <keep-alive>
-        <Promised :promise="data">
-            <template v-slot:pending>
-                <p>Loading...</p>
-            </template>
-            
-            <template v-slot="data">
-                <v-card width="300" min-height="400" hover class="ma-2">
-                    <v-card-title class="justify-center" primary style="text-align: center"><h2>{{$i18n.locale != "ja" ? data.Media.title.romaji : data.Media.title.native}}</h2></v-card-title>
-                    <v-img contain height="300" :src="data.Media.coverImage.large"/>
-                    <v-card-text>
-                        <h3 style="text-align: center">
-                            {{$i18n.locale != "ja" ? show.desc : ""}}
-                        </h3>
-                    </v-card-text>
-                </v-card>
-            </template>
-        </Promised>
-    </keep-alive> -->
     <v-card width="300" min-height="400" hover class="ma-2">
-        <v-card-title class="justify-center" primary style="text-align: center"><h2>{{$i18n.locale != "ja" ? show.title : show.jatitle}}</h2></v-card-title>
-        <v-img contain height="300" :src="`https://images.weserv.nl/?url=${show.imgUrl}`"/>
-        <v-card-text>
-            <h3 style="text-align: center">
-                {{$i18n.locale != "ja" ? show.desc : ""}}
-            </h3>
-        </v-card-text>
+        <div>
+            <v-card-title class="justify-center" primary style="text-align: center"><h3>{{$i18n.locale != "ja" ? show.title : show.jatitle}}</h3></v-card-title>
+            <v-img contain height="300" :src="`https://images.weserv.nl/?url=${show.imgUrl}`"/>
+            <v-card-text>
+                <h3 style="text-align: center">
+                    {{$i18n.locale != "ja" ? show.desc : ""}}
+                </h3>
+            </v-card-text>
+        </div>
     </v-card>
 </template>
 
@@ -74,6 +57,11 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped lang="stylus">
+.v-card
+    top: 0
+    transition 0.10s;
+    transition-timing-function linear
+.v-card:hover
+    top -10px
 </style>

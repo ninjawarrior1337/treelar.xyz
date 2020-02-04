@@ -9,7 +9,7 @@ currShows:
   imgUrl: https://img1.ak.crunchyroll.com/i/spire4/5ac5fff410cb66c57ce0d2ea2617d08d1515076527_full.jpg
   desc: ABC...easy as 123
 - title: Shirobako
-  ja-title: SHIROBAKO
+  jatitle: SHIROBAKO
   imgUrl: https://img1.ak.crunchyroll.com/i/spire4/eec93e750b6b873f13e04a2c77d57dca1412806442_full.jpg
   desc: I heard it's like New Game but better...
 # - title: The Irregular at Magic High School
@@ -30,7 +30,7 @@ prevShows:
 - title: Assassination Classroom
   jatitle: 暗殺教室
   imgUrl: https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20755-dd7F1pv6z1y9.jpg
-  desc: Nagisa is best girl...
+  desc: Nagisa is best girl...unless
 - title: Rascal Does Not Dream of Bunny Girl Senpai
   jatitle: 青春ブタ野郎はバニーガール先輩の夢を見ない
   imgUrl: https://img1.ak.crunchyroll.com/i/spire2/9f8894f961340ccdd9464a53b14ca3bd1538572740_full.jpg
