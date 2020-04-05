@@ -64,7 +64,11 @@ export default {
     'vue-scrollto/nuxt',
     'nuxt-i18n',
     "@nuxtjs/axios",
-    "@nuxtjs/sitemap"
+    "@nuxtjs/sitemap",
+    [
+      "@nuxtjs/pwa",
+      {icon: false}
+    ]
   ],
 
   i18n: {

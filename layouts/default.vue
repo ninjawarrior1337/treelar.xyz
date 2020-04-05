@@ -1,6 +1,7 @@
 <template>
   <v-app>
-    <v-toolbar height="50" id="toolbar">
+    <transition enter-active-class="animated slideInDown" appear="">
+      <v-toolbar height="50" id="toolbar">
         <!-- <v-toolbar-title>
           
         </v-toolbar-title> -->
@@ -18,7 +19,8 @@
 
         <v-btn v-if="$i18n.locale === 'en'" text nuxt :to="switchLocalePath('ja')">日本語 🡆</v-btn>
         <v-btn v-if="$i18n.locale === 'ja'" text nuxt :to="switchLocalePath('en')">English 🡆</v-btn>
-    </v-toolbar>
+      </v-toolbar>
+    </transition>
     <transition enter-active-class="animated fadeIn" appear="">
       <nuxt></nuxt>
     </transition>

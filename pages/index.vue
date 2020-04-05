@@ -2,9 +2,14 @@
   <div>
     <transition appear="" enter-active-class="animated zoomIn">
       <v-layout class="wrapper-layout" align-center justify-center column style="background-image: linear-gradient(to right, #3399ff , #0000ff)">
-        <transition appear="" enter-active-class="animated fadeInDownBig delay-800ms">
+        <transition appear="" enter-active-class="animated zoomIn delay-800ms">
           <div id="mainLogo">
-            <v-img src="/logoassets/logowobg.svg"/>
+            <v-img
+              height="300"
+              class="elevation-5"
+              :style="{borderRadius: 180+'px'}"
+              src="/logoassets/logo.png"
+            />
           </div>
         </transition>
         <h1 id="underLogo">
@@ -18,12 +23,37 @@
         </h1>
       </v-layout>
     </transition>
-    <v-layout class="wrapper-layout" align-center justify-center>
-      <v-container ma-6 class="elevation-12" id="card">
-        <v-layout column="" justify-space-between="" fill-height="">
+    <!-- <v-layout class="wrapper-layout" align-center justify-center> -->
+      <v-container :style="{
+        minHeight: 100+'vh',
+      }">
+        <v-row :style="{alignItems: 'center', justifyItems: 'center', minHeight: 'inherit'}">
+          <v-col>
+            <v-row justify="center">
+              <v-img src="/logoassets/logowobg.svg" max-width="60%">
+
+              </v-img>
+            </v-row>
+            
+          </v-col>
+          <v-col>
+              <v-card class="my-5" v-for="(v, k) of mainCard[$i18n.locale]" :key="k">
+                <v-card-title>
+                  <h2>{{k}}</h2>
+                </v-card-title>
+                <v-card-text>
+                  <ul>
+                    <li v-for="item of v" :key="item" v-html="item"></li>
+                  </ul>
+                </v-card-text>
+              </v-card>
+          </v-col>
+        </v-row>
+      
+        <!-- <v-layout column="" justify-space-between="" fill-height="">
           <v-layout justify-space-around="" align-center="">
             <span class="menacing">ゴゴゴゴゴゴゴゴゴゴゴゴ</span>
-            <img class="mx-4" height="100" width="100" style="border-radius: 50%; object-fit: cover;" src="/logoassets/logo.png"/>
+            <img class="mx-4" height="100" width="100" src="/logoassets/logowobg.svg"/>
             <span class="menacing">ゴゴゴゴゴゴゴゴゴゴゴゴ</span>
           </v-layout>
           <v-layout align-space-around="" column justify-space-around="" fill-height="">
@@ -35,9 +65,11 @@
                 </ul>
             </card-section>
           </v-layout>
-        </v-layout>
+        </!-->
+
+
       </v-container>
-    </v-layout>
+    <!-- </v-layout> -->
   </div>
 </template>
 
