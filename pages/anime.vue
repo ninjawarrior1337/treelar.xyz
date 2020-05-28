@@ -26,8 +26,8 @@
     "currWatch": "Currently Watching"
   },
   "ja": {
-    "prevWatch": "アニメを予て見ました",
-    "currWatch": "アニメを今の所見ましています"
+    "prevWatch": "予て見られるアニメ",
+    "currWatch": "見られるアニメ"
   }
 }
 </i18n>
