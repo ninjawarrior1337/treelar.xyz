@@ -33,7 +33,7 @@
 </i18n>
 
 <script>
-import anime from 'json-loader!yaml-loader!../assets/anime.yaml'
+import anime from '../assets/anime.yaml'
 import animeCard from '../components/animeCard.vue'
 export default {
   components: {

@@ -12,12 +12,12 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: pkg.description },
-      { name: 'theme-color', content: '#3399ff'},
-      { name: 'og-name', content: "Tyler's Website"},
-      { name: 'og:type', content: "website"},
-      { name: 'og:url', content: "https://treelar.com"},
-      { name: 'og:description', content: "Why not learn about some dude that makes bad (good) robots, epic games (Reverse Game), horribly inefficient code, can speak very english sounding japanese, and becomes idol fan because some filipino guy shows him a circle clicking game."},
-      { name: 'og:image', content: "https://treelar.xyz/logoassets/avatar8192x8192.png"}
+      { name: 'theme-color', content: '#3399ff' },
+      { name: 'og-name', content: "Tyler's Website" },
+      { name: 'og:type', content: "website" },
+      { name: 'og:url', content: "https://treelar.com" },
+      { name: 'og:description', content: "Why not learn about some dude that makes bad (good) robots, epic games (Reverse Game), horribly inefficient code, can speak very english sounding japanese, and becomes idol fan because some filipino guy shows him a circle clicking game." },
+      { name: 'og:image', content: "https://treelar.xyz/logoassets/avatar8192x8192.png" }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -53,6 +53,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    "@/plugins/lazysizes",
     '@/plugins/animate',
     '@/plugins/promised'
   ],
@@ -67,7 +68,7 @@ export default {
     "@nuxtjs/sitemap",
     [
       "@nuxtjs/pwa",
-      {icon: false}
+      { icon: false }
     ]
   ],
 
@@ -109,10 +110,35 @@ export default {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-    }
+      config.module.rules.forEach((r) => {
+        if(r.test.toString() === `/\.(png|jpe?g|gif|svg|webp)$/i`) {
+          r.use = [
+            {
+              loader: "url-loader",
+              options: {
+                limit: 1000,
+                name: 'img/[name].[hash:7].[ext]'
+              }
+            },
+            {
+              loader: 'image-webpack-loader',
+            }
+          ]
+          delete r.loader;
+          delete r.options;
+        }
+      })
+      config.module.rules.push(
+        {
+          test: /\.ya?ml$/,
+          type: 'json',
+          use: 'yaml-loader'
+        }
+      )
+    },
   },
   server:
   {
-    port: 8081
+    port: 1234
   }
 }
