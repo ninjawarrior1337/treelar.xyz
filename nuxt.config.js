@@ -13,11 +13,11 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: pkg.description },
       { name: 'theme-color', content: '#3399ff' },
-      { name: 'og-name', content: "Tyler's Website" },
+      { name: 'og-name', content: "Treelar.wtf" },
       { name: 'og:type', content: "website" },
       { name: 'og:url', content: "https://treelar.com" },
-      { name: 'og:description', content: "Why not learn about some dude that makes bad (good) robots, epic games (Reverse Game), horribly inefficient code, can speak very english sounding japanese, and becomes idol fan because some filipino guy shows him a circle clicking game." },
-      { name: 'og:image', content: "https://treelar.xyz/logoassets/avatar8192x8192.png" }
+      { name: 'og:description', content: "Why not learn about some dude that makes bad (good) robots, epic games (Reverse Game), horribly inefficient code, can speak very broken japanese, and becomes idol fan because some filipino guy shows him a circle clicking game." },
+      { name: 'og:image', content: "https://treelar.xyz/logoassets/logo2020.png" }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -82,7 +82,8 @@ export default {
   },
 
   buildModules: [
-    "@nuxtjs/vuetify"
+    "@nuxtjs/vuetify",
+    "@nuxt/typescript-build"
   ],
 
   vuetify: {
@@ -92,7 +93,7 @@ export default {
   },
 
   sitemap: {
-    hostname: 'https://treelar.xyz'
+    hostname: 'https://treelar.wtf'
   },
 
   /*

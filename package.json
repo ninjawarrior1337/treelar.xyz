@@ -30,6 +30,7 @@
     "vuetify-loader": "^1.2.1"
   },
   "devDependencies": {
+    "@nuxt/typescript-build": "^1.0.3",
     "@nuxtjs/vuetify": "^1.0.0",
     "json-loader": "^0.5.7",
     "nodemon": "^1.18.9",

@@ -7,9 +7,8 @@
             <img
               height="300"
               width="300"
-              class="elevation-5 lazyload"
-              :style="{borderRadius: `180px`, objectFit: `cover`}"
-              data-src="/logoassets/logo.png"
+              class="lazyload"
+              data-src="/logoassets/logo2020.svg"
               alt="big logo"
             />
           </div>
@@ -32,7 +31,7 @@
         <v-row :style="{alignItems: 'center', justifyItems: 'center', minHeight: 'inherit'}">
           <v-col>
             <v-row justify="center">
-              <img class="lazyload" data-src="/logoassets/logowobg.svg" :style="{minWidth: `60%`}" alt="logo that needs to be changed"/>
+              <img class="lazyload" data-src="/logoassets/logo2020.svg" :style="{minWidth: `60%`}" alt="logo"/>
             </v-row>
           </v-col>
           <v-col>
@@ -48,27 +47,7 @@
               </v-card>
           </v-col>
         </v-row>
-      
-        <!-- <v-layout column="" justify-space-between="" fill-height="">
-          <v-layout justify-space-around="" align-center="">
-            <span class="menacing">ゴゴゴゴゴゴゴゴゴゴゴゴ</span>
-            <img class="mx-4" height="100" width="100" src="/logoassets/logowobg.svg"/>
-            <span class="menacing">ゴゴゴゴゴゴゴゴゴゴゴゴ</span>
-          </v-layout>
-          <v-layout align-space-around="" column justify-space-around="" fill-height="">
-            <card-section v-for="(v, k) of mainCard[$i18n.locale]" :key="k" :title="k">
-                <ul>
-                  <li class="cardListElement" v-for="item of v" :key="item" v-html="item">
-
-                  </li>
-                </ul>
-            </card-section>
-          </v-layout>
-        </!-->
-
-
       </v-container>
-    <!-- </v-layout> -->
   </div>
 </template>
 
@@ -91,11 +70,13 @@
 }
 </i18n>
 
-<script>
+<script lang="ts">
 import cardSection from '../components/cardSection.vue'
+//@ts-ignore
 import mainCard from '../assets/mainCardEnteries.yaml'
+import Vue from "vue"
 
-export default {
+export default Vue.extend({
   components: {
     cardSection
   },
@@ -105,7 +86,7 @@ export default {
       mainCard,
     }
   }
-}
+})
 </script>
 
 <style lang="stylus">
@@ -120,12 +101,9 @@ a
 @import "~rfs/stylus";
 
 #mainLogo
-  // margin-top: -5%
   width: 20rem;
   height 20rem;
   max-width: 300px;
-  // height: auto;
-  // margin-top 30px;
 
 .wrapper-layout
   min-height: 100vh
@@ -142,19 +120,7 @@ a
 
 #card
   background-color: white;
-  // margin 10px
-  // width: 85vw;
-  // height: 85vh;
   border-radius 25px;
-  // overflow-y auto
-  // display table
-
-// #underLogo
-//   text-align: center;
-//   font-family: "Comfortaa";
-//   font-weight: normal;
-//   rfs(45)
-//   user-select none
 
 #underLogo
   text-align: center;
